@@ -1,0 +1,79 @@
+.foto-all {
+    border: 20px solid red;
+    background-color: yellow;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+}
+
+.foto-img {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border-color: green;
+    border: 10px solid green;
+}
+
+#f01 {
+    top: 100px;
+    left: 100px;
+}
+
+#f02 {
+    top: 150px;
+    left: 150px;
+}
+
+#f03 {
+    top: 200px;
+    left: 200px;
+}
+
+#f01:hover {
+    z-index: 1;
+    top: 100px;
+    left: 100px;
+}
+
+#f02:hover {
+    z-index: 1;
+    top: 150px;
+    left: 150px;
+}
+
+#f03:hover {
+    z-index: 1;
+    top: 200px;
+    left: 200px;
+}
+
+#f04 {
+    z-index: 5;
+    position: relative;
+    top: 500px;
+    left: 500px;
+}
+
+.btn {
+    display: inline-block;
+    height: 50px;
+    width: 250px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 3px solid #264730;
+    border-radius: 50px;
+    color: #3b704b;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 44px;
+    text-transform: uppercase;
+    text-decoration: none;
+  
+    transition: all 0.2s ease-in;
+    margin: 650px;
+    margin-left: 800px;
+  }
+  
+.btn:hover {
+    background-color: #2b7550;
+    color: white;
+  }
